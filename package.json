@@ -1,0 +1,38 @@
+{
+  "name": "notebook",
+  "version": "1.0.0",
+  "description": "Learn Notes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kafmws/notes.git"
+  },
+  "author": "kafm <desperado(at)qq.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "@markspec/vuepress-plugin-footnote": "^1.1.1",
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "@vuepress/plugin-medium-zoom": "^1.2.0",
+    "build": "^0.1.4",
+    "fs-extra": "^9.0.1",
+    "opencollective": "^1.0.3",
+    "opencollective-postinstall": "^2.0.1",
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-container": "^2.1.2",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-mathjax": "^1.2.8",
+    "vuepress-theme-default-prefers-color-scheme": "^1.0.6"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-nprogress": "^1.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/kafmws/notes/issues"
+  },
+  "homepage": "https://github.com/kafmws"
+}
